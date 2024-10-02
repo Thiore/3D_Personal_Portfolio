@@ -3,7 +3,27 @@ guid: b49d9ed5813185645953d7d156faa066
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: b12137c800f28e942a231d99737e93b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: crow_body_mat
+    second: {fileID: 2100000, guid: 739ea2aed911d4747a9a455c3a433ee3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surfaceShader2
+    second: {fileID: 2100000, guid: 4ccb9c2e5c856764e90fd0adb92794c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: surfaceShader3
+    second: {fileID: 2100000, guid: a5ec28214d253a7499b9e1d9c2ba47e7, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
