@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DenseLeavesFortressPB
+  m_Shader: {fileID: 4800000, guid: a67cffa57f748af428312ddd2132baf1, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Blend:
+        m_Texture: {fileID: 2800000, guid: b3b967368812d7546b90e0e70e7277e0, type: 3}
+        m_Scale: {x: 0.0625, y: 0.0625}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 02e21c50e761e27498411e9b7a1e5c60, type: 3}
+        m_Scale: {x: 0.08333, y: 0.08333}
+        m_Offset: {x: 0, y: 0}
+      _MainTex2:
+        m_Texture: {fileID: 2800000, guid: 536f9cd4c76bf9c45a78056273a5546c, type: 3}
+        m_Scale: {x: 0.0625, y: 0.0625}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _EdgeThreshold: 0
+      _Gloss: 0
+      _Glossiness: 0
+      _Metallic: 0
+      _Mix: 1.5
+      _Threshold: 0.525
+      _Threshold_In: 0.424
+      _Threshold_Out: 0.241
+      _blendStrength: 0.368
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EdgeColor: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+      _Tint1: {r: 1, g: 1, b: 1, a: 1}
+      _Tint2: {r: 1, g: 1, b: 1, a: 1}

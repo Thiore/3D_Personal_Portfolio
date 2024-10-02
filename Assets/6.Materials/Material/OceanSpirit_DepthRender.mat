@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OceanSpirit_DepthRender
+  m_Shader: {fileID: 4800000, guid: e9cd4e2664f598e47bc332dd675cb93f, type: 3}
+  m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1370381c51e0af447a7ada6b969328a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 4632299b43aa9254ba5fca8198e5c581, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _CorrectiveNormalOffset: 0
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _Dissolve: 0
+      _DissolveNoise: 5
+      _DstBlend: 0
+      _GlossMapScale: 1
+      _Glossiness: 0
+      _GlossyReflections: 0
+      _Glow: 24
+      _Metallic: 0
+      _Mode: 0
+      _NoiseDirection: 0
+      _NoiseScale: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _RimPower: 0.3
+      _Shininess: 1
+      _ShowSilhouette: -1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 0
+      _SrcBlend: 1
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 0.6037736, g: 0.5135873, b: 0.27625492, a: 1}
+      _Emission: {r: 0, g: 0, b: 0, a: 0}
+      _EmissionColor: {r: 1.9766746, g: 0.382916, b: 0.890021, a: 1}
+      _NoiseDirection: {r: 0, g: 0, b: 0, a: 0}
+      _NoiseScale: {r: 0, g: 1.15, b: 0, a: 0}
+      _OccludedColor: {r: 0, g: 0, b: 0, a: 1}
+      _RimColor: {r: 1, g: 0.19117641, b: 0.44219053, a: 1}
+      _SourcePoint: {r: 0, g: 0, b: 0, a: 0}
+      _SpecColor: {r: 1, g: 1, b: 1, a: 0}

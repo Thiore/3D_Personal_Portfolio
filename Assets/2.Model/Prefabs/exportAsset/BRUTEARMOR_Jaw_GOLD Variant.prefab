@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1535634627739206
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4158712902440716}
+  - component: {fileID: 114089300634150169}
+  - component: {fileID: 114977712352597915}
+  m_Layer: 10
+  m_Name: BRUTEARMOR_Jaw_GOLD Variant
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1759097040831183
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4056413893039832}
+  - component: {fileID: 33502223782999848}
+  - component: {fileID: 23066196893658334}
+  - component: {fileID: 64697582534413160}
+  - component: {fileID: 54280499677709878}
+  m_Layer: 10
+  m_Name: Helmet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4158712902440716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535634627739206}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 2.8088027E-07}
+  m_LocalPosition: {x: 1.226548, y: 0.287852, z: -35.62913}
+  m_LocalScale: {x: 1.35, y: 1.35, z: 1.35}
+  m_Children:
+  - {fileID: 4056413893039832}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 180, y: 3.2186508E-05, z: 180}
+--- !u!114 &114089300634150169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535634627739206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12f99a43cc9cc424fb2ca0f9b3366368, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  survivingObjects: []
+  separateSurvivngObjects: 0
+  forceGrabMaterials: 1
+  destroyOnDissolve: 1
+--- !u!114 &114977712352597915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535634627739206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 695b4ab701b3562408d512549e4153df, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  maxHealth: 99
+  homingTarget: 0
+  wwiseTakeDamageId:
+  wwiseHitType:
+  wwiseDeathType:
+  refuelArrowCharge: 1
+  ignoreDamage: []
+  useLargeExplosionRadius: 0
+  playerDamageOnly: 0
+  playDefaultEnemyKillSound: 1
+  canPotentiallyDodge: 0
+  hookshotTarget: 1
+  spawnSlashEffects: 1
+  finishedStartup: 0
+  decativateOnDeath: []
+  deactivateObjectOnDeath: 0
+  bloodVoumePrefab: {fileID: 0}
+  bloodVolumeSpawnOffset: {x: 0, y: 0, z: 0}
+  bloodVolumeScaleModifier: 1
+  characterDiameter: 0
+  deathPrefab: {fileID: 0}
+  ragDollPrefab: {fileID: 0}
+  mesh:
+  - {fileID: 23066196893658334}
+  maxInvulTime: 0.1
+  healthBar: {fileID: 0}
+  decayParticles: {fileID: 0}
+  flashColor: {r: 0, g: 0, b: 0, a: 0}
+  maxFlashes: 5
+  crackAppearanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flashIntensity: 1
+  electricScale: 0.07
+  dropPrefab: {fileID: 0}
+--- !u!4 &4056413893039832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759097040831183}
+  m_LocalRotation: {x: 6.5793E-08, y: 0.3277177, z: 0.9447757, w: 1.9472158E-07}
+  m_LocalPosition: {x: 0.008, y: 2.013, z: -2.707}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4158712902440716}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 38.260612, y: -1.8954314E-07, z: -179.99997}
+--- !u!33 &33502223782999848
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759097040831183}
+  m_Mesh: {fileID: 4300000, guid: e0a485f1e35cc9a4db744d3cc69380f9, type: 2}
+--- !u!23 &23066196893658334
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759097040831183}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 28f68912c21e7e64cb8185f0da0e1723, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &64697582534413160
+MeshCollider:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759097040831183}
+  m_Material: {fileID: 13400000, guid: 5c3180e841c2c2f45af817d3d83aa0a9, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: e0a485f1e35cc9a4db744d3cc69380f9, type: 2}
+--- !u!54 &54280499677709878
+Rigidbody:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1759097040831183}
+  m_Mass: 15
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

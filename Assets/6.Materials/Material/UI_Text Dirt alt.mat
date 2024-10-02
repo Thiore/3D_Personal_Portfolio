@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_Text Dirt alt
+  m_Shader: {fileID: 4800000, guid: ba265c85fc3933642a5d1010f8a25ae7, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 3dc80451619b18d49b22e9aae5e409ea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _NoiseIntensity: 15.51
+      _NoiseScale: 2.02
+      _RandomNoise: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _RandNum: {r: 0, g: 0, b: 0, a: 0}
+      _RandomNum: {r: 167.51636, g: 158.88286, b: 692.2391, a: 485.20486}

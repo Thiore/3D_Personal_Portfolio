@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ForestWaterSolid
+  m_Shader: {fileID: 4800000, guid: 5619e9c17a864164b9409cdc1cce12e0, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 2e9ba17a34a9d714981f9b7e0918f430, type: 3}
+        m_Scale: {x: 0.01, y: 0.01}
+        m_Offset: {x: 0, y: 0}
+      _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _WobbleTex:
+        m_Texture: {fileID: 2800000, guid: 91056277853dc5d45943fc285e5b77cc, type: 3}
+        m_Scale: {x: 0.0625, y: 0.0625}
+        m_Offset: {x: -0.18, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _FresnelExp: 0
+      _GlossMapScale: 1
+      _Glossiness: 0
+      _GlossyReflections: 0
+      _GradientPosition1: 0
+      _GradientPosition2: 0
+      _LightColorIntensity: 0.246
+      _MainAlpha: 0.25
+      _MainFoamIntensity: 2
+      _MainFoamOpacity: 0.417
+      _MainFoamScale: 0.1
+      _MainFoamSpeed: 0.1
+      _Metallic: 0
+      _Mode: 0
+      _NoisePercent: 0.7
+      _OcclusionStrength: 1
+      _Opacity: 0.7
+      _OpacityDepth: 18
+      _Parallax: 0.02
+      _RealTimeReflection: 0
+      _ReflectTween: 1
+      _ReflectionAlpha: 0.27
+      _ReflectionsIntensity: 0.269
+      _RefractionIntensity: 1.71
+      _RelfectionTintingPercent: 0.7
+      _Roughness: 0.402
+      _SecondaryFoamAlwaysVisible: 0
+      _SecondaryFoamIntensity: -1.33
+      _SecondaryFoamOpacity: 0
+      _SecondaryFoamScale: 1.31
+      _ShadowIntensity: 1
+      _Shadows: 1
+      _ShadowsIntensity: 1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 0
+      _SpecularIntensity: 0
+      _SrcBlend: 1
+      _TurbulenceDistortionIntesity: 0
+      _TurbulenceScale: 0
+      _UVSec: 0
+      _VertexOffset: 0
+      _WaveDistortionIntensity: 0
+      _WavesAmplitude: 10
+      _WavesDirection: 0
+      _WavesIntensity: 1
+      _WavesSpeed: 2
+      _WobbleSpeed: 4
+      _WobbleStrength: 6
+      _ZWrite: 1
+    m_Colors:
+      _AltReflectionColor: {r: 0, g: 0, b: 0, a: 1}
+      _AltReflectionColorNight: {r: 0, g: 0, b: 0, a: 1}
+      _Color: {r: 0.4106988, g: 0.41509432, b: 0.31523672, a: 1}
+      _DepthGradient1: {r: 0, g: 0, b: 0, a: 0}
+      _DepthGradient2: {r: 0, g: 0, b: 0, a: 0}
+      _DepthGradient3: {r: 0, g: 0, b: 0, a: 0}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _FoamColor: {r: 0, g: 0, b: 0, a: 0}
+      _FresnelColor: {r: 0, g: 0, b: 0, a: 0}
+      _NoiseTint: {r: 0.78193843, g: 0.9056604, b: 0.58526164, a: 1}
+      _ReflectionTintColor: {r: 0.6844212, g: 0.8396226, b: 0.46337664, a: 1}
+      _ShadowColor: {r: 0.009191178, g: 0.033871744, b: 0.125, a: 1}
+      _TintColor: {r: 0.57965463, g: 0.735849, b: 0.58520174, a: 1}

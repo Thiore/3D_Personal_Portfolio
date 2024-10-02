@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Truth_Eye_GodRay
+  m_Shader: {fileID: 4800000, guid: a22ced45a74ca554e8ba5ecfde84e79c, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1370381c51e0af447a7ada6b969328a6, type: 3}
+        m_Scale: {x: 0.2, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Alpha: 0.471
+      _BumpScale: 1
+      _Cutoff: -0.08
+      _DetailNormalMapScale: 1
+      _Dissolve: 55.68
+      _DissolveNoise: 7.68
+      _DstBlend: 10
+      _EdgeSize: 0.05
+      _GlossMapScale: 1
+      _Glossiness: 0
+      _GlossyReflections: 1
+      _Glow: -7.16
+      _Metallic: 0
+      _Mode: 3
+      _NoiseDirection: 0
+      _NoiseScale: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _RimPower: 0.01
+      _ScrollSpeed: 0.76
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _StencilMask: 1
+      _UVSec: 0
+      _ZWrite: 0
+    m_Colors:
+      _Color: {r: 0.8632076, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 1, g: 0.19117638, b: 0.4421905, a: 1}
+      _OccludedColor: {r: 1, g: 1, b: 1, a: 1}
+      _RimColor: {r: 1, g: 1, b: 1, a: 0}
+      _SourcePoint: {r: -191, g: 293.12, b: 780, a: 0}

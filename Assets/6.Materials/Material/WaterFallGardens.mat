@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterFallGardens
+  m_Shader: {fileID: 4800000, guid: 5fcbb2e49edebb747ada16138435ff3e, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: beed1d3fa5e5c2148aeaa42b76343348, type: 3}
+        m_Scale: {x: 0.125, y: 0.125}
+        m_Offset: {x: 0, y: 0}
+      _NoiseTex2:
+        m_Texture: {fileID: 2800000, guid: f5383bcb050f29c4f960a0d4418415ff, type: 3}
+        m_Scale: {x: 0.125, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _ClipValue: 0.03
+      _FallSpeed: 4
+      _Glossiness: 0
+      _Metallic: 0
+      _NoiseCutoff: 0.02
+      _ReflectionAlpha: 0.4
+      _WobbleSpeed: 1
+      _WobbleStrength: 5
+    m_Colors:
+      _Color: {r: 0.38431373, g: 0.48881885, b: 0.5176471, a: 1}
+      _FoamColor: {r: 0.5691082, g: 0.5817239, b: 0.5943396, a: 1}

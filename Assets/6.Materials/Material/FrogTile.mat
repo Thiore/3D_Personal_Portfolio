@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FrogTile
+  m_Shader: {fileID: 4800000, guid: 6fea98ba3708a5a4c88e814cf628814f, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DissolveTex:
+        m_Texture: {fileID: 2800000, guid: 754bd875b8a89d74281f4c3dbeb89620, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 71dd00c9c61bc004bbf84e65211196dc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Brightness: 0.9
+      _DissolveAmount: 1
+      _Glow: 20
+      _NoiseStrength: 4.92
+      _Radius: 100.65534
+      _RimWidth: 1
+      _Saturation: 0.6
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _CrackColor: {r: 1, g: 0.19117641, b: 0.44219053, a: 1}
+      _SourcePoint: {r: -200.71, g: 83, b: 1272.5934, a: 0}

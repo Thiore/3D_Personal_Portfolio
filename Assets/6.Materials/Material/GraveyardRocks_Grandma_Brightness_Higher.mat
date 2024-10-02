@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GraveyardRocks_Grandma_Brightness_Higher
+  m_Shader: {fileID: 4800000, guid: f67aaa2e58ef6bf45b3aa14281bb8a3e, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Detail:
+        m_Texture: {fileID: 2800000, guid: 40fca06914b668c428ed4b821dd4b9c1, type: 3}
+        m_Scale: {x: 2.5, y: 2.5}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: bad17fa05b6f4834190fe7a0bd6ada9e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _HeightMax: 15
+      _HeightStart: -60
+    m_Colors:
+      _Color: {r: 0.5471698, g: 0.47315612, b: 0.4465112, a: 1}
+      _FadeColor: {r: 0, g: 0, b: 0, a: 1}

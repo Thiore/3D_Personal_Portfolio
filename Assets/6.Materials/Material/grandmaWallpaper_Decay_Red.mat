@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: grandmaWallpaper_Decay_Red
+  m_Shader: {fileID: 4800000, guid: a67cffa57f748af428312ddd2132baf1, type: 3}
+  m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Blend:
+        m_Texture: {fileID: 2800000, guid: f5383bcb050f29c4f960a0d4418415ff, type: 3}
+        m_Scale: {x: 0.015625, y: 0.015625}
+        m_Offset: {x: 0, y: 0}
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: e3684f3a012d0ff4792d4951b8258a50, type: 3}
+        m_Scale: {x: 0.1875, y: 0.125}
+        m_Offset: {x: 0, y: 0}
+      _MainTex2:
+        m_Texture: {fileID: 2800000, guid: a78f40fe3895e064693cdbe2da6f35c0, type: 3}
+        m_Scale: {x: 0.0625, y: 0.0625}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _EdgeThreshold: 0.01
+      _GlossMapScale: 1
+      _Glossiness: 0
+      _GlossyReflections: 0
+      _MainAlpha: 0.466
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _ReflectionAlpha: 0.13
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 0
+      _SrcBlend: 1
+      _Threshold: 0.33
+      _Threshold_In: 0.28
+      _Threshold_Out: 0.36
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
+      _EdgeColor: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _Tint1: {r: 1, g: 1, b: 1, a: 1}
+      _Tint2: {r: 1, g: 0.8160377, b: 0.81855774, a: 1}
+      _TintColor: {r: 1, g: 1, b: 1, a: 1}

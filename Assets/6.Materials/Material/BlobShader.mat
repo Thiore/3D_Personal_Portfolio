@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BlobShader
+  m_Shader: {fileID: 4800000, guid: 53ee9f8140194584faeb0e4e6c35256f, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: 50a8479c27bd0254fa8df2ef0f03b7a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _noise:
+        m_Texture: {fileID: 2800000, guid: a1108936f3bdeff4eaaaef851cc0cba2, type: 3}
+        m_Scale: {x: 0.04, y: 0.04}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Gloss: 1
+      _Glow: 1
+      _Metallic: 0
+      _distanceChecker: 0.02
+      _intensity: 0
+      _normalStrength: 0.23
+      _speedScroll: 1.4
+      _strength: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}

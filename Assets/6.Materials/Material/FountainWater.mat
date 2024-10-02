@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FountainWater
+  m_Shader: {fileID: 4800000, guid: cc7f5c3abbfb0d04385c78d0ecec6968, type: 3}
+  m_ShaderKeywords: _SHADOWS_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DistortionTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: 1370381c51e0af447a7ada6b969328a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Cutoff: 0.5
+      _FresnelExp: 5
+      _GradientPosition1: 2.8
+      _GradientPosition2: 9.74
+      _LightColorIntensity: 1
+      _MainFoamIntensity: 4
+      _MainFoamOpacity: 0.5
+      _MainFoamScale: 0.1
+      _MainFoamSpeed: 0.05
+      _Opacity: 0.2
+      _OpacityDepth: 20
+      _RealTimeReflection: 0
+      _ReflectionsIntensity: 0.25
+      _RefractionIntensity: 1.71
+      _Roughness: 0.48
+      _SecondaryFoamAlwaysVisible: 0
+      _SecondaryFoamIntensity: 0
+      _SecondaryFoamOpacity: 0
+      _SecondaryFoamScale: 0
+      _ShadowIntensity: 1
+      _Shadows: 1
+      _ShadowsIntensity: 1
+      _SpecularIntensity: 0
+      _TurbulenceDistortionIntesity: 0
+      _TurbulenceScale: 1
+      _VertexOffset: 0
+      _WaveDistortionIntensity: 0
+      _WavesAmplitude: 10
+      _WavesDirection: 0
+      _WavesIntensity: 1
+      _WavesSpeed: 2
+    m_Colors:
+      _DepthGradient1: {r: 0.58348167, g: 0.81149876, b: 0.8301887, a: 1}
+      _DepthGradient2: {r: 0.45211816, g: 0.75471693, b: 0.74458283, a: 1}
+      _DepthGradient3: {r: 0.45113885, g: 0.6981132, b: 0.6802995, a: 1}
+      _FoamColor: {r: 0, g: 0.6320754, b: 0.553066, a: 1}
+      _FresnelColor: {r: 0.5691081, g: 0.79542, b: 0.8207547, a: 1}
+      _ShadowColor: {r: 0.009191178, g: 0.033871744, b: 0.125, a: 1}
