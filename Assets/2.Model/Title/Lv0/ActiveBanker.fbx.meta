@@ -3,7 +3,37 @@ guid: ea685a355a306ef4c91c87bebf46654e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Banker
+    second: {fileID: 2100000, guid: a3c2f1d0bcfd0774698de00108bcf991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BankerBum
+    second: {fileID: 2100000, guid: e430a606c7d844845a0731b26efc05d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HallofDoorsUV3
+    second: {fileID: 2100000, guid: b695ebdf7c3daef4d98bfad2c87a8004, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ReadableStuff_texture
+    second: {fileID: 2100000, guid: 35326d19bd805324c9659dd8b1817981, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ReadableStuff_texture_Shine
+    second: {fileID: 2100000, guid: 90744d4b368ee2149812ae994266864d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ReadableStuff_texture_metallic
+    second: {fileID: 2100000, guid: bb3d4c56d85328a42862c86fa01a8aa3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -90,7 +120,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 100
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
