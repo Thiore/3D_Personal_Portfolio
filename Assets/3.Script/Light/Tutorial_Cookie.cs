@@ -29,7 +29,7 @@ public class Tutorial_Cookie : MonoBehaviour
         CookieMat.SetFloat("_Cookie1_offset", Cookie1_offset);
         CookieMat.SetFloat("_Cookie2_offset", Cookie2_offset);
 
-        Graphics.Blit(LightCookie, LightCookie, CookieMat);
+        Graphics.Blit(LightCookie, CookieMat);
     }
 
 }
