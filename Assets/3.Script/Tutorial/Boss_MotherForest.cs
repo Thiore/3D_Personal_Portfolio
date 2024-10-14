@@ -29,8 +29,10 @@ public class Boss_MotherForest : MonoBehaviour
     private Animator Anim;
 
     private GameObject player = null;
+    private Transform LastUpper;
+    private Transform LastBase;
 
-    public bool isBoss = false;
+    public bool isBoss;
     private bool isTurn = false;
 
     private void Awake()
@@ -43,32 +45,37 @@ public class Boss_MotherForest : MonoBehaviour
             pattern = Mother_Pattern.Idle;
 
         player = GameObject.FindGameObjectWithTag("Player");
+        LastUpper = Upper;
+        LastBase = Base;
+        isBoss = true;
     }
 
     
    
     private void LateUpdate()
     {
-        if(isBoss)
+        if(Input.GetKey(KeyCode.Return))
         {
-            float angle = Vector3.SignedAngle(-Upper.forward, transform.position - player.transform.position,Vector3.up);
-            Upper.eulerAngles += Vector3.up*angle;
+            float angle = Vector3.SignedAngle(LastUpper.forward, player.transform.position - transform.position,Vector3.up);
+            if(Mathf.Abs(angle)>5f)
+            {
+                Upper.eulerAngles += Vector3.up * angle;
+            }
         }
         if(Input.GetKey(KeyCode.Space))
         {
-            float angle = Vector3.SignedAngle(Upper.forward, Base.forward, Vector3.up);
-            Debug.Log(angle);
-            if(Mathf.Abs(angle)>1f)
+            float angle = Vector3.SignedAngle(LastUpper.forward, -Base.forward, Vector3.up);
+            Debug.Log(LastUpper.eulerAngles);
+            if(Mathf.Abs(angle)>5f)
             {
-                Upper.eulerAngles -= Vector3.up * angle*Time.deltaTime*5f;
+                Upper.eulerAngles = LastUpper.eulerAngles + Vector3.up * angle*0.1f;
             }
+            Debug.Log(Upper.eulerAngles);
             
         }
+        
+        LastUpper = Upper;
     }
 
-    public void OnBossStage()
-    {
-        isBoss = true;
-    }
 
 }
