@@ -4,16 +4,9 @@ using UnityEngine;
 
 public class Boss_MotherState : StateMachineBehaviour
 {
-    
-    private Boss_MotherForest Mother = null;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if(Mother == null)
-        {
-            animator.TryGetComponent(out Mother);
-            Mother.isBoss = true;
-        }
         
     }
 
@@ -28,15 +21,8 @@ public class Boss_MotherState : StateMachineBehaviour
     {
         if (stateInfo.IsName("forest_mother|forest_mother|Idle_Spin|Base Layer 3"))
         {
-            if(Mother == null)
-            {
-                Debug.Log("°¢°¢");
-            }
-            else
-            {
-                //Mother.isBoss = false;
-            }
-            
+            animator.TryGetComponent(out Boss_MotherForest Mother);
+            Mother.isBoss = true;
         }
     }
 
