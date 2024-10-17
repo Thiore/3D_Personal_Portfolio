@@ -147,8 +147,8 @@ public class Boss_MotherForest : MonoBehaviour
         }
     }
 
-    private IEnumerator Spin()
-    {
+    //private IEnumerator Spin()
+    //{
 
-    }
+    //}
 }
